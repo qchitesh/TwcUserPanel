@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ask_Doctor</name>
+   <tag></tag>
+   <elementGuidId>64b203de-81ed-462c-883a-40318b91e383</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div/div/div[2]/div/a/div/img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/template/Askdoctor.jpg' and @alt = 'Ask a Doctor']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Ask a Doctor&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>6928f771-d75e-4c45-a604-22a72cdff9e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/template/Askdoctor.jpg</value>
+      <webElementGuid>9a550d70-1dd8-4f06-b650-935981878e52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Ask a Doctor</value>
+      <webElementGuid>3a5d47a7-eb7f-4dc5-bd9d-a8b023432465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;template&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;homeListingSection&quot;]/div[@class=&quot;borderBottom&quot;]/div[@class=&quot;row&quot;]/a[@class=&quot;col&quot;]/div[@class=&quot;homeListingSection-img&quot;]/img[1]</value>
+      <webElementGuid>89b5bdc6-53cb-466f-b239-99ecf6b2aa1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div/div/div[2]/div/a/div/img</value>
+      <webElementGuid>7f72dd9d-1511-4ec8-8cc5-d8dbc03eb6ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Ask a Doctor']</value>
+      <webElementGuid>1674fb84-61c0-42c3-a941-8afdf61a8d61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/img</value>
+      <webElementGuid>7f76218b-373b-4fad-b294-452a8669f88e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/template/Askdoctor.jpg' and @alt = 'Ask a Doctor']</value>
+      <webElementGuid>c34ff47e-db15-4840-9187-cdb00f764280</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

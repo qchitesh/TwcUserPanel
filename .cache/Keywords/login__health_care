@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "33D3F4B0980317CC7678D5C1987A57E5",
+  "keywordClasses": [
+    {
+      "name": "login.health_care",
+      "keywordMethods": [
+        {
+          "name": "userLoginTest",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

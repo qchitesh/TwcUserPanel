@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Ask aDoctor</name>
+   <tag></tag>
+   <elementGuidId>6b4564d4-73a7-48dd-98f6-c6a9febad3ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/div/div/div/div/div[5]/div/a/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f83eec4a-ebc5-4cf7-b58e-8ed5399e42dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ask aDoctor</value>
+      <webElementGuid>fb9cfb06-c592-4114-8f19-de4972219768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;template&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;user-dashboard md:tw-mt-0 tw-mt-7&quot;]/div[@class=&quot;md:tw-mb-10 feature-category-list md:tw-mt-5&quot;]/div[@class=&quot;ant-row feature-category-menu&quot;]/div[@class=&quot;ant-col ant-col-xs-8 ant-col-sm-6 ant-col-lg-4&quot;]/div[@class=&quot;feature-category-menu-item tw-relative md:hover:tw-shadow-[0_3px_14px_0_rgba(0,0,0,0.25)] md:hover:tw-rounded-2xl tw-transition tw-duration-300 hover:tw-transition-all hover:after:tw-content-[''] hover:after:tw-absolute hover:after:tw-bottom-0 hover:after:tw-h-1 hover:after:tw-left-0 hover:after:tw-right-0 hover:after:tw-m-auto hover:after:tw-w-3/12 hover:after:tw-bg-[#31C8C1] hover:after:tw-rounded-full&quot;]/a[1]/span[2]/span[1]</value>
+      <webElementGuid>87574988-fcf8-4bcf-a973-7582da5a5b5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div/div/div/div/div[5]/div/a/span[2]/span</value>
+      <webElementGuid>4ef75e55-f548-42c8-ad6c-eab0b4d57bdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WellnessTV'])[1]/preceding::span[2]</value>
+      <webElementGuid>f75fa434-e8cf-4199-9fdd-0be1cfcd8612</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WellnessPlans'])[1]/preceding::span[5]</value>
+      <webElementGuid>2f67c4b7-1671-49e9-be8a-0f289dd4458a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ask a']/parent::*</value>
+      <webElementGuid>6d2da1a7-57dd-4656-bf64-7e3e0f92e03e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/a/span[2]/span</value>
+      <webElementGuid>099cb2f1-a617-4eb5-9b93-3b25ece66110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ask aDoctor' or . = 'Ask aDoctor')]</value>
+      <webElementGuid>ec977039-6535-4b55-9e05-98b8aef33d40</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

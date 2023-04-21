@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Wellness_Plans_Tab</name>
+   <tag></tag>
+   <elementGuidId>0e8371cc-a199-4281-a15c-d2ec3fd8d6e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src=&quot;https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/dashboard/wellness-plans.svg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

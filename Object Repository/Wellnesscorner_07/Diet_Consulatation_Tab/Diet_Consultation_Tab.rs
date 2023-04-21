@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Diet_Consultation_Tab</name>
+   <tag></tag>
+   <elementGuidId>9646307d-c084-4868-8d4b-f40709a2972b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src=&quot;https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/dashboard/diet-consult.svg&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

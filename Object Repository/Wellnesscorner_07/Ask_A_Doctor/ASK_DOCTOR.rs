@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ASK_DOCTOR</name>
+   <tag></tag>
+   <elementGuidId>1c8518c4-f30b-403f-a9ab-f22ee70618c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src=&quot;https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/dashboard/ask-doctor.svg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "643EBB4BD8441A905808CF1FB0F7BB1B",
+  "keywordClasses": [
+    {
+      "name": "login_wellness.login_demo",
+      "keywordMethods": [
+        {
+          "name": "login_wellness",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

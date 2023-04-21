@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Set_Target_Improve</name>
+   <tag></tag>
+   <elementGuidId>6751692b-0e21-41d0-a359-075ae7973dac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@src=&quot;https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/hra/arrow-green.png&quot;])[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

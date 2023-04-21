@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Guided_Wellness_Program_Tab</name>
+   <tag></tag>
+   <elementGuidId>e12ba5b8-cd7d-4d9d-bae0-c727935e9cc7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src=&quot;https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/dashboard/guided-programs.svg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

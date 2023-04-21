@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Emotional_Therapy_Tab</name>
+   <tag></tag>
+   <elementGuidId>b7036fee-542e-4221-a2a7-9a059d56bf9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,&quot;https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/dashboard/emotional-therapy.svg&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

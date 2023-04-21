@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Life_Style_Scroe</name>
+   <tag></tag>
+   <elementGuidId>0d12aa1a-82fa-4868-a25c-6f74efebddb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@src=&quot;https://cdn-thewellnesscorner.s3.amazonaws.com/twc-web-images/hra/arrow-green.png&quot;])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

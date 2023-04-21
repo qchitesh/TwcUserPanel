@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'thewellnesscorner.com'</initValue>
+      <name>Add_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hitesh.chandankar@truworth.com'</initValue>
+      <name>Add_User</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hitesh@97'</initValue>
+      <name>Add_Password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

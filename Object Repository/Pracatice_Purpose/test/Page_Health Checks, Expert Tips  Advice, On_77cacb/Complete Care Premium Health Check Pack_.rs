@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Complete Care Premium Health Check Pack_</name>
+   <tag></tag>
+   <elementGuidId>3de3b756-4e3d-4088-a461-2521939b371a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;healthcheckContents&quot; and @href=&quot;/health-packages/surat/complete-care-premium-health-check-package&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.healthcheckContents</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>79d90c78-3ae8-4931-9318-8a08da5c84de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>healthcheckContents</value>
+      <webElementGuid>ad13c384-e540-4c23-bce0-a398059cd4c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Complete Care Premium Health Check Package Includes 89 tests ₹14475 ₹1999 BUY</value>
+      <webElementGuid>fe32fe1b-6a33-4f72-9caa-9b365046096e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;template&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;dashboard-category-wrapper md:tw-mt-16 tw-mt-10 md:tw-mb-0 tw-mb-5&quot;]/section[@class=&quot;blog-related-packages tw-mb-8&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;slick-slider slick-initialized&quot;]/div[@class=&quot;slick-list&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;slick-slide slick-active slick-current&quot;]/div[1]/a[1]/div[@class=&quot;healthcheckContents&quot;]</value>
+      <webElementGuid>59b73126-686a-4f40-977e-e40b6bcd4bc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div/div/section/div/div[2]/div/div/div/div/a/div</value>
+      <webElementGuid>d0e7dc32-2406-483c-b9c7-765f3eebd546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Health Checks @ Home'])[1]/following::div[6]</value>
+      <webElementGuid>6602327c-3d09-4e55-8ea6-495ab9ce012d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>514fd31f-dd73-4370-b78c-e6d53837122d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Complete Care Premium Health Check Package Includes 89 tests ₹14475 ₹1999 BUY' or . = 'Complete Care Premium Health Check Package Includes 89 tests ₹14475 ₹1999 BUY')]</value>
+      <webElementGuid>cc62f875-f648-452d-ae8d-1f5387f1be70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
