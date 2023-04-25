@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class=&quot;orderStep-date false&quot;])[2]</value>
+         <value>//p[text()=&quot;select date &amp; time&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

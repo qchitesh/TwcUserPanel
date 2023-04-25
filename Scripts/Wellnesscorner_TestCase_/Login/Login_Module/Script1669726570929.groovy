@@ -43,20 +43,15 @@ WebUI.setText(findTestObject('Object Repository/Wellnesscorner_07/Login_/input_W
 
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/button_Continue'))
 
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/Login_/Location'))
+if(WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Login_/Hitesh_Name'), 3))
+{
+	System.out.println("Wellcome Hitesh")
+}
+else
+{
+	System.out.println("User not valid")
+	assert false
+}
 
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/Login_/Location_Surat'))
-
-//not_run: if (WebUI.verifyElementPresent(findTestObject('Object Repository/Wellnesscorner_07/Login_/Hitesh'), 20)) {
-//  System.out.println('Test case pass')
-//} else {
-//    System.out.println('Test case fail')
-//
-//    assert false
-//}
-not_run: WebUI.closeBrowser()
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Wellnesscorner_07/Ask_A_Doctor/ASK_DOCTOR'))
+WebUI.closeBrowser()
 

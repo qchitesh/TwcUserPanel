@@ -55,23 +55,17 @@ WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Select_Patient_
 
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Select_Patient_Next'))
 
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Select_Address1'))
+WebUI.delay(2)
 
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Select _Address'))
+not_run: WebUI.scrollToElement(findTestObject('Wellnesscorner_07/My_Health_Benefits/Selected_Lab'), 3)
 
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Proceed_Address'))
-
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Select_Address_Next'))
-
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Select_Time_Slot'))
-
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Date_3'))
-
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Bet_1_5'))
-
-not_run: WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Proceed'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/select_Lab'))
+
+WebUI.delay(3)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/Selected_Lab'))
 

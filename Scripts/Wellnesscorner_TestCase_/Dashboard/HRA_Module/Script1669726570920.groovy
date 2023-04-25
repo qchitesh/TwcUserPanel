@@ -42,7 +42,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/testtest/Page_Health Risk Assessment - The Wellness Corner/test3'))
 
-WebUI.delay(5)
+WebUI.delay(30)
 
 WebUI.click(findTestObject('Wellnesscorner_07/HRA/Next_Button_Tab'))
 

@@ -22,23 +22,25 @@ class login_demo {
 	@Keyword
 	public static void login_wellness() {
 		WebUI.openBrowser('')
-		
+
 		WebUI.maximizeWindow()
-		
+
 		WebUI.navigateToUrl('https://www.thewellnesscorner.com/')
 		
+		WebUI.delay(5)
+
 		WebUI.click(findTestObject('IMP/Cross_Click'))
-		
+
 		WebUI.click(findTestObject('IMP/get_Started_'))
-		
+
 		WebUI.setText(findTestObject('IMP/Email_'), 'hitesh.chandankar@truworth.com')
-		
+
 		WebUI.click(findTestObject('IMP/Continue'))
-		
+
 		WebUI.setText(findTestObject('IMP/Password'), 'Mahi@07')
-		
+
 		WebUI.click(findTestObject('IMP/Continue'))
-		
+
 		WebUI.delay(4)
 	}
 }

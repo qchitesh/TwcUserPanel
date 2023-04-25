@@ -21,6 +21,8 @@ CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
 WebUI.scrollToElement(findTestObject('Wellnesscorner_07/Upcoming_Events/Upcoming_Event'), 2)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Food_For-Health'))
 
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Maybe'))

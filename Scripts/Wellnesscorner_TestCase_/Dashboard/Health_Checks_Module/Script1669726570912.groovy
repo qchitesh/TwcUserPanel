@@ -95,15 +95,13 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Wellnesscorner_07/Health_Checks/Select_New_Patient/Next_Button_Tab_For_Date_Time'))
 
-WebUI.delay(2)
+WebUI.delay(5)
+
+not_run: WebUI.scrollToElement(findTestObject('Wellnesscorner_07/Health_Checks/Select_DateTime_/Scroll_BY'), 3)
 
 WebUI.click(findTestObject('Wellnesscorner_07/Health_Checks/Select_DateTime_/Select Sat_03_Tab'))
 
 WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Wellnesscorner_07/Health_Checks/Select_DateTime_/Scroll_BY'), 3)
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Wellnesscorner_07/Health_Checks/Select_DateTime_/Before_10_AM_Tab'))
 

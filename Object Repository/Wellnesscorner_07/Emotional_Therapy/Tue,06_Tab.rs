@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@aria-selected=&quot;false&quot; and @class=&quot;ant-tabs-tab-btn&quot;])[6]</value>
+         <value>//div[@class=&quot;ant-tabs-tab ant-tabs-tab-active&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
