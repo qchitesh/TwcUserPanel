@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class=&quot;orderStep-date false&quot;])[5]</value>
+         <value>//div[@class=&quot;orderStep-date isSelected&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

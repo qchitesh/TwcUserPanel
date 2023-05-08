@@ -6,11 +6,11 @@
    <elementGuidId>babb5979-6fff-4b31-a063-827d89bc6da6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@class=&quot;isSelected&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//p[text()=&quot;Before 10 AM&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

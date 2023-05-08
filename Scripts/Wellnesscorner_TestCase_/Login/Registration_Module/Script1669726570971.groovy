@@ -47,3 +47,5 @@ WebUI.click(findTestObject('Wellnesscorner_07/Login_/Referal_Tab1'))
 
 WebUI.click(findTestObject('Wellnesscorner_07/Registration_Tab/Registar_Tab'))
 
+WebUI.closeBrowser()
+

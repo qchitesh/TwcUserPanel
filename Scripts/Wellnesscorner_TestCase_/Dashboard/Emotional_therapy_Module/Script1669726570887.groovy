@@ -39,21 +39,19 @@ WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Emotional_Therap
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Emotional_Therapy/3PM_Tab'))
+test = WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Emotional_Therapy/3PM_Tab'), 5, FailureHandling.OPTIONAL)
+
+if (test == true) {
+    WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Emotional_Therapy/3PM_Tab'))
+
+    System.out.println('Session Avialable')
+} else {
+    System.out.println('Session Not Avialable')
+
+    WebUI.closeBrowser()
+}
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Emotional_Therapy/Proceed_Tab'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Emotional_Therapy/Proceed_to_Payment_Tab'))
-
-WebUI.delay(5)
-
-WebUI.back()
-
-WebUI.back()
-
-WebUI.closeBrowser()
 

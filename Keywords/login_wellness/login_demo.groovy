@@ -26,7 +26,7 @@ class login_demo {
 		WebUI.maximizeWindow()
 
 		WebUI.navigateToUrl('https://www.thewellnesscorner.com/')
-		
+
 		WebUI.delay(5)
 
 		WebUI.click(findTestObject('IMP/Cross_Click'))

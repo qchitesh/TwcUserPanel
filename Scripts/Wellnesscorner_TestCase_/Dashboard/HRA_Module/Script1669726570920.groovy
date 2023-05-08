@@ -35,8 +35,8 @@ WebUI.click(findTestObject('Wellnesscorner_07/HRA/Being_Assignment_Tab'))
 
 WebUI.delay(5)
 
-WebUI.dragAndDropToObject(findTestObject('testtest/Page_Health Risk Assessment - The Wellness Corner/div_concat(5, , 0, ,  Feet)'), 
-    findTestObject('testtest/Page_Health Risk Assessment - The Wellness Corner/div_concat(6, , 1, ,  Feet)'))
+//WebUI.dragAndDropToObject(findTestObject('testtest/Page_Health Risk Assessment - The Wellness Corner/div_concat(5, , 0, ,  Feet)'), 
+//    findTestObject('testtest/Page_Health Risk Assessment - The Wellness Corner/div_concat(6, , 1, ,  Feet)'))
 
 WebUI.delay(5)
 

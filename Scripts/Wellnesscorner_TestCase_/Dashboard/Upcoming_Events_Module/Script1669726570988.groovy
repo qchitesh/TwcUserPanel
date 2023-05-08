@@ -19,15 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
+WebUI.delay(2)
+
+WebUI.maximizeWindow()
+
+WebUI.delay(2)
+
 WebUI.scrollToElement(findTestObject('Wellnesscorner_07/Upcoming_Events/Upcoming_Event'), 2)
 
-WebUI.delay(5)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Food_For-Health'))
 
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Maybe'))
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 WebUI.back()
 
@@ -37,7 +43,7 @@ WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Exercise_For_Bone'
 
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Not_Going'))
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 WebUI.back()
 

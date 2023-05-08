@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[text()=&quot; Mon, 01&quot;]</value>
+         <value>(//div[@class=&quot;ant-tabs-tab-btn&quot;])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
