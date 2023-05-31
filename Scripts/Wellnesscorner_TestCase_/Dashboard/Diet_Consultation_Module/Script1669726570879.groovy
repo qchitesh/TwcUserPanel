@@ -21,17 +21,27 @@ CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
 WebUI.click(findTestObject('Wellnesscorner_07/Diet_Consulatation_Tab/Diet_Consultation_Tab'))
 
+WebUI.comment('open diet consultation tab')
+
 WebUI.delay(2)
+
+WebUI.comment('click on start now button')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Diet_Consulatation_Tab/Start_NowArrow_Tab'))
 
 WebUI.delay(2)
 
+WebUI.comment('select plan')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Diet_Consulatation_Tab/Select_Plan_Tab'))
 
 WebUI.delay(2)
 
+WebUI.comment('select coach profile')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Diet_Consulatation_Tab/Click_On_IShita_Profile_Tab'))
+
+WebUI.comment('switch to window')
 
 WebUI.switchToWindowIndex(1)
 
@@ -40,8 +50,6 @@ def test1 = 'Ishita Sharma'
 WebUI.delay(5)
 
 def test2 = WebUI.getText(findTestObject('Page_Ishita Sharma - The Wellness Corner/h1_Ishita Sharma'))
-
-WebUI.comment(test2)
 
 if (test1 == test2) {
     System.out.println('Testcase pass')
@@ -54,6 +62,8 @@ if (test1 == test2) {
 WebUI.delay(5)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.comment('back to dashboard')
 
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/DashBoard'))
 

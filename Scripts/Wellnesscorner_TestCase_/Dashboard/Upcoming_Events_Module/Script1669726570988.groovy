@@ -25,37 +25,65 @@ WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
+WebUI.comment('Scroll to upcoming event ')
+
 WebUI.scrollToElement(findTestObject('Wellnesscorner_07/Upcoming_Events/Upcoming_Event'), 2)
 
 WebUI.delay(20)
 
+WebUI.comment('Click on Food For health')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Food_For-Health'))
+
+WebUI.comment('Click on May Be')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Maybe'))
 
 WebUI.delay(15)
 
+WebUI.comment('Click on back')
+
 WebUI.back()
 
+WebUI.comment('Scroll to upcoming event')
+
 WebUI.scrollToElement(findTestObject('Wellnesscorner_07/Upcoming_Events/Upcoming_Event'), 2)
+
+WebUI.comment('Click on exercise for bone')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Exercise_For_Bone'))
 
+WebUI.comment('Click on Not going')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Not_Going'))
+
+WebUI.comment('delay for 15 sec')
 
 WebUI.delay(15)
 
+WebUI.comment('Click on back')
+
 WebUI.back()
+
+WebUI.comment('Scroll to upcoming event')
 
 WebUI.scrollToElement(findTestObject('Wellnesscorner_07/Upcoming_Events/Upcoming_Event'), 2)
 
+WebUI.comment('Click on Bone Care')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Bone_Care_30'))
+
+WebUI.comment('Click on going')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Upcoming_Events/Going'))
 
 WebUI.delay(5)
 
+WebUI.comment('Click on back')
+
 WebUI.back()
+
+WebUI.comment('Close Browser')
 
 WebUI.closeBrowser()
 

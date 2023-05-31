@@ -19,29 +19,47 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
+WebUI.comment('Click on My Health File')
+
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_File/My_Health_File_Tab'))
 
 WebUI.delay(2)
+
+WebUI.comment('Click on My Health Record')
 
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_File/Add_Health_Record_Tab'))
 
 WebUI.delay(2)
 
+WebUI.comment('Enter Test')
+
 WebUI.setText(findTestObject('Wellnesscorner_07/My_Health_File/Enter_Name_HealthRecord_Tab'), 'test')
 
 WebUI.delay(2)
+
+WebUI.comment('Uploade document')
 
 WebUI.uploadFile(findTestObject('Wellnesscorner_07/My_Health_File/IMG_Health_'), 'D:\\Hitesh Sanjay Chandankar\\Downloads\\MicrosoftTeams-image (4).png')
 
 WebUI.delay(4)
 
+WebUI.comment('Enter Description')
+
 WebUI.setText(findTestObject('Wellnesscorner_07/My_Health_File/Description_Tab'), 'I submitted my health report.')
+
+WebUI.comment('Click on Health record type')
 
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_File/Health_Record_Type_Tab'))
 
+WebUI.comment('Click on My Health Submit button')
+
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_File/Submit_Tab'))
 
+WebUI.comment('Click on back')
+
 WebUI.back()
+
+WebUI.comment('Close browser')
 
 WebUI.closeBrowser()
 

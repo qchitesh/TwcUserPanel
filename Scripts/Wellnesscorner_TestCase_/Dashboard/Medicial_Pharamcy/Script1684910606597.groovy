@@ -21,21 +21,35 @@ CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Medical pharmacy ')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Medical_Pharmacy_Tab'))
+
+WebUI.comment('Click on Medical pharmacy detect location ')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Detect_Location'))
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Medical pharmacy OTP')
+
 WebUI.setText(findTestObject('Wellnesscorner_07/Medical__Pharmacy/OTP'), '882560', FailureHandling.OPTIONAL)
+
+WebUI.comment('Click on Medical pharmacy Ayurveda ')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Ayurveda'))
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Medical pharmacy Filter ')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Filter_Relevance'))
 
+WebUI.comment('Click on Medical pharmacy Low to High ')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Low_High'))
+
+WebUI.delay(0)
 
 if (WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Medical__Pharmacy/filter_Apply-verify'), 2)) {
     System.out.println('Filter Applied')
@@ -47,17 +61,27 @@ if (WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Medical__Pharma
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Medical pharmacy Chavanparsh')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Chavanparsh_Filter'))
 
 WebUI.delay(2)
+
+WebUI.comment('Click on Medical pharmacy select Chavanparsh ')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Select_Chavanparsh'))
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Medical pharmacy Window change')
+
 WebUI.switchToWindowIndex(1)
 
+WebUI.comment('Add to cart')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Add to cart'))
+
+WebUI.comment('Click on Medical pharmacy verify add to cart ')
 
 if (WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Product_add_Cart'), 2)) {
     System.out.println('Product added to cart')
@@ -69,15 +93,27 @@ if (WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Medical__Pharma
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Medical pharmacy My cart ')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/My_Cart'))
+
+WebUI.comment('Click on Checkout')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Checkout'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.comment('Click on Medical pharmacy select address ')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Select_Address'))
+
+WebUI.comment('Click on Medical pharmacy next button ')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Next_'))
 
+WebUI.comment('Click on Medical pharmacy checkout payment ')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Checkout_payment'))
+
+WebUI.comment('Close Browser ')
 
 //WebUI.switchToWindowIndex(1)
 //
@@ -88,6 +124,5 @@ WebUI.click(findTestObject('Wellnesscorner_07/Medical__Pharmacy/Checkout_payment
 //
 //    assert false : 'Payment option not shown'
 //}
-
 WebUI.closeBrowser()
 

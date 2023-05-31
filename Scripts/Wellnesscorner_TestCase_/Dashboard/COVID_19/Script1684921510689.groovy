@@ -23,6 +23,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Wellnesscorner_07/Covid_19/Logo_'))
 
+WebUI.comment('open covid tab')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Covid_19/Covid_19'))
 
 if (WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Covid_19/Title_Verify'), 2)) {
@@ -32,6 +34,8 @@ if (WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Covid_19/Title_
 
     assert false : 'Covid-19 Page not open'
 }
+
+WebUI.comment('back to dashboard')
 
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Covid_19/Dashboard'))
 

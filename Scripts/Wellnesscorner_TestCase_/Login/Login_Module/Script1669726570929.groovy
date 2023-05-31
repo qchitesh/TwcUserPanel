@@ -19,15 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.comment('Maximize Window')
+
 WebUI.maximizeWindow()
+
+WebUI.comment('Open wellness corner app')
 
 WebUI.navigateToUrl(GlobalVariable.App_URL)
 
+WebUI.comment('Click on Cross icon')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Cross_popup'))
+
+WebUI.comment('Click on get started')
 
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/a_GET STARTED'))
 
+WebUI.comment('Enter Email ID')
+
 WebUI.setText(findTestObject('Object Repository/Wellnesscorner_07/Login_/input_Enter email'), GlobalVariable.Add_User)
+
+WebUI.comment('Verify Email ID')
 
 if (GlobalVariable.Add_User == 'hitesh.chandankar@truworth.com') {
     System.out.println('Test case pass')
@@ -39,19 +51,25 @@ if (GlobalVariable.Add_User == 'hitesh.chandankar@truworth.com') {
 
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/button_Continue'))
 
+WebUI.comment('Enter Password')
+
 WebUI.setText(findTestObject('Object Repository/Wellnesscorner_07/Login_/input_Welcome_Password'), GlobalVariable.Add_Password)
+
+WebUI.comment('Click on continue button')
 
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/button_Continue'))
 
-if(WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Login_/Hitesh_Name'), 3))
-{
-	System.out.println("Wellcome Hitesh")
+WebUI.comment('Verify Name')
+
+if (WebUI.verifyElementPresent(findTestObject('Wellnesscorner_07/Login_/Hitesh_Name'), 3)) {
+    System.out.println('Wellcome Hitesh')
+} else {
+    System.out.println('User not valid')
+
+    assert false
 }
-else
-{
-	System.out.println("User not valid")
-	assert false
-}
+
+WebUI.comment('Close Browser')
 
 WebUI.closeBrowser()
 

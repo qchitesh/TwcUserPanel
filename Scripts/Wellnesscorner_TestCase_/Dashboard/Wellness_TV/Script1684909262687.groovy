@@ -21,19 +21,29 @@ CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Wellness TV')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Wellness_TV/Wellness_TV'))
 
 WebUI.delay(5)
+
+WebUI.comment('Click on Start Now')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Wellness_TV/Start_Now'))
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Back')
+
 WebUI.back()
 
 WebUI.delay(2)
 
+WebUI.comment('Click on Back')
+
 WebUI.back()
+
+WebUI.comment('Close Browser')
 
 WebUI.closeBrowser()
 

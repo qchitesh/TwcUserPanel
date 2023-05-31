@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
+WebUI.comment('click on Wellness plans')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Wellness_Plans/Wellness_Plans_Tab'))
+
+WebUI.comment('Click on back ')
 
 WebUI.back()
 

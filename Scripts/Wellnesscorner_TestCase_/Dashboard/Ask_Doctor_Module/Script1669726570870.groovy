@@ -21,11 +21,15 @@ CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
 WebUI.delay(4)
 
+WebUI.comment('open ask doctor tab')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Ask_A_Doctor/ASK_DOCTOR'))
 
 WebUI.click(findTestObject('Wellnesscorner_07/Ask_A_Doctor/Slide_Arrow_Tab'))
 
 WebUI.back()
+
+WebUI.comment('back to dashboard ')
 
 WebUI.click(findTestObject('Wellnesscorner_07/My_Health_Benefits/DashBoard'))
 

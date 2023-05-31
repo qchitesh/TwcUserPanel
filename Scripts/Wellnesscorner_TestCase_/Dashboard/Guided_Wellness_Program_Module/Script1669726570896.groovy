@@ -19,9 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
+WebUI.comment('Click on Guided wellness program')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Guided_Wellness_Programs/Guided_Wellness_Program_Tab'))
 
 WebUI.back()
+
+WebUI.comment('back to dashboard')
 
 WebUI.closeBrowser()
 

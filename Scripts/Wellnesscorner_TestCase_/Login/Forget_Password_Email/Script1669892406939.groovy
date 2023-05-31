@@ -19,36 +19,53 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.comment('Maximize Window')
+
 WebUI.maximizeWindow()
+
+WebUI.comment('Open wellness corner')
 
 WebUI.navigateToUrl('thewellnesscorner.com')
 
+WebUI.comment('Click on cross popup')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Cross_popup'))
+
+WebUI.comment('Click on Get started')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/a_GET STARTED'))
 
+WebUI.comment('Enter Email')
+
 WebUI.setText(findTestObject('Wellnesscorner_07/Login_/input_Enter email'), GlobalVariable.Add_User)
+
+WebUI.comment('Click on Continue button')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/button_Continue'))
 
+WebUI.comment('Click on Password')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Forget_Password'))
+
+WebUI.comment('Click on Send Email password')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Send_Mail_password'))
 
-if (WebUI.verifyTextPresent('hitesh.chandankar@truworth.com', false)) 
-	{
+WebUI.comment('Verify Email ID')
+
+if (WebUI.verifyTextPresent('hitesh.chandankar@truworth.com', false)) {
     System.out.println('Test case pass')
-} 
-else 
-	{
+} else {
     System.out.println('Test case fail')
 
     assert false
 }
 
+WebUI.comment('Click on back')
 
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/Back_Mail_Password_Tab'))
 
-WebUI.closeBrowser()
+WebUI.comment('Close Brwoser')
 
+WebUI.closeBrowser()
 

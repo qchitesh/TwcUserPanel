@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'login_wellness.login_demo.login_wellness'()
 
+WebUI.comment('Click on Gym & Fitness')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Gym_Fitness/Gym_Fitness_Tab'))
 
 WebUI.back()

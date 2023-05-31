@@ -17,7 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'login_wellness.login_demo.login_wellness'()
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Wellnesscorner_07/Ask_A_Doctor/ASK_DOCTOR'))
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.App_URL)
+
+WebUI.click(findTestObject('Wellnesscorner_07/Login_/Cross_popup'))
+
+WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/a_GET STARTED'))
+
+String candidateChars = 'HiteshChandankar'
+
+StringBuilder lname = new StringBuilder()
+
+Random random = new Random()
+
+for (int i = 0; i < 5; i++) {
+    lname.append(candidateChars.charAt(random.nextInt(candidateChars.length())))
+}
+
+WebUI.setText(findTestObject('Object Repository/IMP/user_Email'), lname.toString())
 

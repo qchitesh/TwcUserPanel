@@ -19,21 +19,39 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.comment('Maximize window')
+
 WebUI.maximizeWindow()
+
+WebUI.comment('Open wellness corner app')
 
 WebUI.navigateToUrl('thewellnesscorner.com')
 
+WebUI.comment('Click on cross popup')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Cross_popup'))
+
+WebUI.comment('Click on get started')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/a_GET STARTED'))
 
+WebUI.comment('Enter Email ID')
+
 WebUI.setText(findTestObject('Wellnesscorner_07/Login_/input_Enter email'), GlobalVariable.Add_User)
+
+WebUI.comment('Click on continue button')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/button_Continue'))
 
+WebUI.comment('Click on forgot password')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Forget_Password'))
 
+WebUI.comment('Phone OTP')
+
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Phone_OTP'))
+
+WebUI.comment('Verify Login with Mobile')
 
 if (WebUI.verifyTextPresent('Login with Mobile', false)) {
     System.out.println('Test case pass')
@@ -43,11 +61,17 @@ if (WebUI.verifyTextPresent('Login with Mobile', false)) {
     assert false
 }
 
+WebUI.comment('Enter Phone Number')
+
 WebUI.setText(findTestObject('Object Repository/Wellnesscorner_07/Login_/Phone_Number_Tab'), '9766338207')
+
+WebUI.comment('Click on Continue button')
 
 WebUI.click(findTestObject('Wellnesscorner_07/Login_/Continue_Button'))
 
-if (WebUI.verifyTextPresent('Sign-In with Mobile', false)) {
+WebUI.comment('Verify sign in Mobaile')
+
+if (WebUI.verifyTextPresent('Sign-In with Mobaile', false)) {
     System.out.println('Test case pass')
 } else {
     System.out.println('Test case fail')
@@ -55,9 +79,15 @@ if (WebUI.verifyTextPresent('Sign-In with Mobile', false)) {
     assert false
 }
 
+WebUI.comment('Back to OTP tab')
+
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/Back_For_OTP_Tab'))
 
+WebUI.comment('Cancel OTP')
+
 WebUI.click(findTestObject('Object Repository/Wellnesscorner_07/Login_/Cancel_Tab_OTP_Tab'))
+
+WebUI.comment('Close Browser')
 
 WebUI.closeBrowser()
 
